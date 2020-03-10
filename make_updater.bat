@@ -1,0 +1,1 @@
+makensis installer\silent_updater.nsi
