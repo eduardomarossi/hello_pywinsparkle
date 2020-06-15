@@ -11,7 +11,9 @@ VERSION = '1.1.0'
 update_url = "http://localhost:8000/appcast.xml"
 pywinsparkle.win_sparkle_set_appcast_url(update_url)
 pywinsparkle.win_sparkle_set_app_details("eduardomarossi", "Hello PyWinSparkle", VERSION)
+pywinsparkle.win_sparkle_set_hide_updater_windows(1)
 pywinsparkle.win_sparkle_init()
+pywinsparkle.win_sparkle_set_hide_updater_windows(1)
 # Create a Qt application
 app = QApplication(sys.argv)
 # Create a Label and show it
